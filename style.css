@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.nav input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.nav{
+    gap: 100px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.nav h1{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.header{
+    background-image: url(slider2\ 2.png);
+    width: 1440px;
+    height: 385px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-left: 125px;
+}
+.text{
+    color: #fff;
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+.nav ul li:hover{
+    color: #76B900;
+    transition: all 1s;
+}
+.text button{
+    position: relative;
+    top: 70px;
+    width: 75px;
+    height: 40px;
+    background-color: #76B900;
+}
+.tex h1{
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+.card {
+    width: 290px;
+    height: 300px;
+    position: relative;
+    left: 125px;
+}
+.card img{
+    width: 290px;
+    height: 163px;
+}
+.card h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.card p{
+    text-align: center;
+    margin-top: 20px;
+}
+.card span{
+    color: #76B900;
+}
+.cards{
+    display: flex;
+    gap: 40px;
+}
+.kamp1 img{
+    width: 704px;
+    height: 300px; 
+}
+.kamp{
+    display: flex;
+    margin-left: 160px;
+}
+.kamp1 h1{
+    margin-left: 40px;
+    color: #76B900;
+}
+.kamp1 p{
+    margin-left: 40px;
+}
+.kamp1 button{
+    width: 160px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: none;
+    height: 42px;
+    background-color: #76B900;
+}
+.fot{
+    display: flex;
+    height: 200px;
+    gap: 1000px;
+}
+.fot img{
+    margin-left: 140px;
+    width: 100px;
+    margin-top: 150px;
+    height: 30px;
+}
+.fot p{
+    margin-left: 140px;
+    color: #666666;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.card img:hover{
+    width: 320px;
+    height: 193px;
+    transition: all 1s;
+}
+.card:hover{
+    background-color: #76B900;
+    width: 320px;
+    height: 290px;
+    transition: all 1s;
+}
+.text button:hover{
+    color: black;
+    background-color: yellow;
+    box-shadow: #fff 1px 3px 2px 0px ;
+    transition: all 1s;
+    border: none;
+}
